@@ -19,7 +19,7 @@ jobs:
 
       - name: script
         run: |
-          cp .github/workflows/modules/* /home/site24x7/
+          cp -r /* /home/site24x7/
 
       - name: script
         run: |
