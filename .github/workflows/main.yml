@@ -20,7 +20,7 @@ jobs:
 
       - name: script
         run: |
-          cp -r . /home/site24x7/
+          cp -r ./modules/ /home/site24x7/
 
       - name: script
         run: |
