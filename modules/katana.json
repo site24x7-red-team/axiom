@@ -1,5 +1,5 @@
 [{
-    "command":"/home/op/go/bin/katana -u _target_ -o _output_/_cleantarget_",
+    "command":"/home/op/go/bin/katana -u _target_ -jc -nc -silent -f qurl -kf -fx -retry 3 -d 5 -aff -ct 1h -o _output_/_cleantarget_",
     "ext":"txt",
     "threads":"3"
 }]
