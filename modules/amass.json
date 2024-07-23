@@ -1,4 +1,4 @@
 [{
-	"command":"/usr/bin/amass enum -df input -o output",
+	"command":"/usr/bin/amass enum -df input -passive -norecursive -noalts -o output",
 	"ext":"txt"
 }]
